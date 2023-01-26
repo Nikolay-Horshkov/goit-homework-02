@@ -129,6 +129,9 @@ body {
   color: var(--dark-color);
 }
 /* ------------------------------------section 3 ---------------------------- */
+.section-team {
+  background-color: var(--light-color);
+}
 .team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -137,13 +140,79 @@ body {
   text-transform: capitalize;
   color: var(--dark-color);
 }
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
 /* --------------------------------------*footer* ----------------------------*/
+.footer {
+  background-color: var(--dark-color);
+}
 .footer-logo {
+  text-decoration: none;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--light-color);
+}
+.footer-logo > span {
+  color: var(--primaryBrand-color);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+/* ----------------- P O R T F O L I O ------------------------------ */
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  background-color: var(--light-color);
+  color: var(--primaryBrand-color);
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: var(--pressed-state-color);
+}
+.portfolio-link {
+  text-decoration: none;
+}
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.portfolio-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--light-color);
 }
