@@ -35,6 +35,7 @@ body {
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--dark-color);
 }
 .logo span {
@@ -60,8 +61,8 @@ body {
   color: var(--pressed-state-color);
 }
 .mail {
+  font-style: normal;
   text-decoration: none;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -71,8 +72,8 @@ body {
   color: var(--pressed-state-color);
 }
 .phone {
+  font-style: normal;
   text-decoration: none;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -86,7 +87,6 @@ body {
   background-color: var(--dark-color);
 }
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -116,7 +116,7 @@ body {
 }
 .features-text {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
